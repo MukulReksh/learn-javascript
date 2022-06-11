@@ -29,6 +29,10 @@ function isPerfectSquare(num) {
   return false;
 }
 
+
 fizzBuzz();
 console.log(isOddOrEven(25));
 console.log(isPerfectSquare(525));
+
+
+

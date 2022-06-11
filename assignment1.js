@@ -30,5 +30,3 @@ console.log("the multiplication result is : " + multiply(4, 6));
 console.log("the division result is : " + divide(20, 2));
 console.log("the remainder result is : " + remainder(15, 3));
 
-var a;
-console.log(a + 10);
