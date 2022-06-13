@@ -1,15 +1,12 @@
-let isFound = false;
 function findTwoNum(num) { 
     for (let i = 1; i < num;i++) { 
         for (let j = i; j < num ;j++) { 
             if (i * i + j * j  === num ) { 
                 console.log(i, j);
-                isFound = true;
                 break;
             }
         }
     }
-    return isFound;
 }
 
 function isPalindrome(num) { 
